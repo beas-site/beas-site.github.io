@@ -12,8 +12,30 @@ body {
   background-color: yellow;
   /* This is the background-color */
 }
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-h1 {
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+
+    h1 {
   color: white;
   text-align: center;
 }
@@ -39,6 +61,12 @@ function myFunction() {
 <h2>Duppies-site &#128521</h2>
   <p> Dit is de website voor de leden van de taskgroup "Een dubbeltje op het zand zetten".</p>
 
+<button class="btn success">Success</button>
+<button class="btn info">Info</button>
+<button class="btn warning">Warning</button>
+<button class="btn danger">Danger</button>
+<button class="btn default">Default</button>
+  
 <p id="demo">Deze site kan hallo zeggen.</p>
 
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hallo Duppie!"'>Klik hier!</button>
