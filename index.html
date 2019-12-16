@@ -1,104 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <style>
-body {
-  background-color: yellow;
-  /* This is the background-color */
-}
-  .col-container {
-  display: table;
-  width: 100%;
-}
-.col {
-  display: table-cell;
-  padding: 16px;
-}  
-.btn-group .btn {
-  position: absolute;
-  left: 0px;
-  top: 160px;
-  background-color: navy; /* Navy */
-  border: 1px navy;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
-  width: 200px;
-  display: block; 
-}
-
-.btn-group .button:not(:last-child) {
-  border-bottom: none; /* Prevent double borders */
-}
-
-.btn-group .button:hover {
-  background-color: #3e8e41;
-}
-    
-.home {background-color: navy;} /* Navy */
-.home:hover {background-color: #46a049;}
-
-.info {background-color: navy;} /* Navy */
-.info:hover {background-color: #46a049;}
-
-.agenda {background-color: navy;} /* Navy */
-.agenda:hover {background-color: #46a049;}
-
-.leden {background-color: navy;} /* Navy */ 
-.leden:hover {background-color: #46a049;}
-
-.contact {background-color: navy;} /* Navy */ 
-.contact:hover {background-color: #46a049;}
-
-    h1 {
-  color: white;
-  text-align: center;
-}
-h2 {
-  background-color: navy;
-  color: white;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-}
-</style>
-  
-  <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Kiekeboe!.";
-}
-</script>
-  <Title>Duppies &#128521 </Title>
 <body>
-<div class="col-container">
-  <div class="col" style="background:orange">
-    <img src="Afbeelding8.jpg" width="200">
-<h2>Duppies-site &#128521</h2>
-  <p> Dit is de website voor de leden van de taskgroup "Een dubbeltje op het zand zetten".</p>
-  </div>
-<div class="btn-group">
-<button class="btn home">Home</button>
-<button class="btn info">Info</button>
-<button class="btn agenda">Agenda</button>
-<button class="btn leden">Leden</button>
-<button class="btn contact">Contact</button>
-</div>
-  
-<p id="demo">Deze site kan hallo zeggen.</p>
 
-<button type="button" onclick='document.getElementById("demo").innerHTML = "Hallo Duppie!"'>Klik hier!</button>
-  
-<p id="demo">De site is gewijzigd.</p>
+<img src="Afbeelding8.jpg" alt="Logo van de duppies">
 
-<button type="button" onclick="myFunction()">Kijk maar!</button>
+<p>If we try to display an image that does not exist, the value of the alt attribute will be displayed instead. </p>
 
-  <script>window.alert("Goeiedag eem");
-</script>
-
- </body>
+</body>
 </html>
