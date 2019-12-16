@@ -11,7 +11,14 @@ body {
   background-color: yellow;
   /* This is the background-color */
 }
-    
+  .col-container {
+  display: table;
+  width: 100%;
+}
+.col {
+  display: table-cell;
+  padding: 16px;
+}  
 .btn-group .btn {
   position: absolute;
   left: 0px;
@@ -73,10 +80,11 @@ function myFunction() {
 </script>
   <Title>Duppies &#128521 </Title>
 <body>
-
+<div class="col-container">
+  <div class="col" style="background:orange">
 <h2>Duppies-site &#128521</h2>
   <p> Dit is de website voor de leden van de taskgroup "Een dubbeltje op het zand zetten".</p>
-
+  </div>
 <div class="btn-group">
 <button class="btn home">Home</button>
 <button class="btn info">Info</button>
