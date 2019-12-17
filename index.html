@@ -27,11 +27,11 @@ body {
   overflow: hidden;
 }
 
-li {
+.liheader {
   float: left;
 }
 
-li a {
+.liheader a {
   display: block;
   color: white;
   text-align: center;
@@ -39,8 +39,23 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.liheader a:hover {
   background-color: orange;
+}
+.lisite {
+  float: left;
+}
+
+.lisite a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.lisite a:hover {
+  background-color: navy;
 }
   /* Style the header */
 header {
@@ -103,18 +118,18 @@ footer {
   <img src="Afbeelding8.jpg" width="200" alt="Logo van de duppies" style="float:right;position:absolute;top:0px;right:25px">
   <h1 class="classh1"> Duppies-site &#128521</h1>
   <ul id="idheader">
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li class="liheader"><a href="#home">Home</a></li>
+  <li class="liheader"><a href="#news">News</a></li>
+  <li class="liheader"><a href="#contact">Contact</a></li>
+  <li class="liheader"><a href="#about">About</a></li>
 </ul>
   </header>
 <section>
   <nav>
     <ol id="idsitebar">
-      <li><a href="#">London</a></li>
-      <li><a href="#">Paris</a></li>
-      <li><a href="#">Tokyo</a></li>
+      <li class="lisite"><a href="#">London</a></li>
+      <li class="lisite"><a href="#">Paris</a></li>
+      <li class="lisite"><a href="#">Tokyo</a></li>
     </ol>
   </nav>
   
